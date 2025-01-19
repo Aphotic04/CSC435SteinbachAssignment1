@@ -1,4 +1,6 @@
 # CSC435SteinbachAssignment1
+Video Demo: https://youtu.be/q8IgE-m49SM
+
 Implementing a JS Utility Library by creating a unit converter
 
 Installation: Download the index.html, style.css, and script.js, and simply run the HTML
