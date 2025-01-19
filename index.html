@@ -1,0 +1,52 @@
+<!--
+Ty Steinbach
+CSC 435
+Created: 01-18-2025
+Last Edit: 01-18-2025
+
+Deliverables: 
+Code implementing a JS Utility Library by creating a unit converter
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Pressure Unit Converter</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--Where all the meat and 'taters are stuffed into-->
+        <main>
+            <!--Div for everything involving selecting a unit-->
+            <div id="conversionType">
+                <label for="optType">Select Unit Type</label>
+                <select id="optType" name="optType">
+                    <option value=""></option>
+                    <option value="pressure">Pressure</option>
+                    <option value="length">Length</option>
+                    <option value="mass">Mass</option>
+                </select>
+            </div>
+            <!--Div for number entry and result, as well as the equals sign-->
+            <div id="conversionNum">
+                <section id="from">
+                    <input type="number" id="numFrom" name="numFrom" />
+                </section>
+                <section id="equals">
+                    =
+                </section>
+                <section id="to">
+                    <input type="number" id="numTo" name="numTo" readonly/>
+                </section>
+            </div>
+            <!--Div for unit selection-->
+            <div id="conversionOpt">
+                <select id="optFrom" name="optFrom"></select>
+                <select id="optTo" name="optTo"></select>
+            </div>
+
+            <!--Referenced JS-->
+            <script src="script.js"></script>
+        </main>
+    </body>
+</html>
